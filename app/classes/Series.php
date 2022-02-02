@@ -49,7 +49,7 @@ class Series
             }
             else
             {
-                return $this->smallToBigSeries();
+                return $this->smallToBig();
             }
         }
     }
