@@ -42,6 +42,13 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Odd / Even</label>
+                                    <div class="col-md-9">
+                                        <label><input type="radio"name="odd_even" value="odd"/> Odd</label>
+                                        <label><input type="radio"name="odd_even" value="even"/> Even</label>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
                                     <label class="col-md-3 col-form-label">Result</label>
                                     <div class="col-md-9">
                                         <textarea class="form-control"> <?php echo isset($result) ? $result: ' '?> </textarea>
